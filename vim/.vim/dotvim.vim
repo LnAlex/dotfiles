@@ -49,7 +49,7 @@ set t_Co=256
 let g:solarized_termcolors=256
 let base16colorspace=256
 set background=dark
-colorscheme jellybeans
+colorscheme gruvbox
 
 " ================ Turn Off Swap Files ==============
 
@@ -212,7 +212,7 @@ map <F8> :TagbarToggle<CR>
 
 " ================ Airline ==========================
 
-let g:airline_theme='bubblegum'
+let g:airline_theme='gruvbox'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#fnamemod = ':t'
 let g:airline#extensions#tabline#show_tab_nr = 1

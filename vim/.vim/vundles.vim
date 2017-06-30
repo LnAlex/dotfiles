@@ -24,7 +24,7 @@ Bundle 'nanotech/jellybeans.vim'
 Bundle 'vim-scripts/molokai'
 Bundle 'ajh17/Spacegray.vim'
 Bundle 'dylanaraps/ryuuko'
-
+Bundle 'morhetz/gruvbox'
 
 if executable('git')
     Bundle 'tpope/vim-fugitive'
