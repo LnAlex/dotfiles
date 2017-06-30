@@ -101,7 +101,7 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
-bindsym $mod+n exec --no-startup-id nemo
+bindsym $mod+n exec --no-startup-id thunar
 
 set $mode_resize resize
 bindsym $mod+r mode "$mode_resize"
@@ -275,7 +275,6 @@ exec_always --no-startup-id compton --config ~/.compton.conf &
 exec --no-startup-id nm-applet &
 exec --no-startup-id blueman-applet &
 exec --no-startup-id dropbox &
-exec --no-startup-id seafile-applet &
 exec --no-startup-id sleep 10 && redshift-gtk &
 exec pulseaudio --start
 
